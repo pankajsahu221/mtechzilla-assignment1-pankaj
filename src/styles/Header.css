@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  height: 70px;
+  background: #000000;
+}
+
+.header .logo {
+  font-size: 20px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.header .signbtn {
+  font-family: "Poppins", sans-serif;
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.header .signbtn:hover {
+  color: #c2c2c2;
+  transition: all 0.25s ease;
+}
